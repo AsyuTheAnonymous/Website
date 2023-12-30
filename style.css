@@ -4,8 +4,26 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: #82f5f4 !important;
+}
+
+h1,
+p {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
 .bg-darkgreen {
-  background-color: #235d6a;
+  background-color: #235d6a !important;
+}
+
+.btn-darkgreen {
+  background-color: #82f5f4 !important;
+  color: #235d6a !important;
+}
+
+.br-20 {
+  border-radius: 20px;
 }
 
 .navbar {
@@ -25,14 +43,6 @@
   width: 100%;
 }
 
-.banner {
-  margin: 10px 0 10px 0;
-}
-
 .banner > .container-fluid {
   padding: 0px;
-}
-
-.carousel-item > img {
-  border-radius: 20px;
 }
