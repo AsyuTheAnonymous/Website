@@ -24,3 +24,15 @@
 .navbar ul li a:hover::after {
   width: 100%;
 }
+
+.banner {
+  margin: 10px 0 10px 0;
+}
+
+.banner > .container-fluid {
+  padding: 0px;
+}
+
+.carousel-item > img {
+  border-radius: 20px;
+}
