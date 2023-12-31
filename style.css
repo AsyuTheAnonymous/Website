@@ -22,6 +22,12 @@ p {
   color: #235d6a !important;
 }
 
+.btn-cyan:hover {
+  background-color: #235d6a !important;
+  color: #82f5f4 !important;
+  border: 1px solid #82f5f4 !important;
+}
+
 .br-20 {
   border-radius: 20px;
 }
