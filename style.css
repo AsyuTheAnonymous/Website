@@ -17,12 +17,12 @@ p {
   background-color: #235d6a !important;
 }
 
-.btn-darkgreen {
+.btn-cyan {
   background-color: #82f5f4 !important;
   color: #235d6a !important;
 }
 
-.br-20 {
+.btn-cyan .br-20 {
   border-radius: 20px;
 }
 
