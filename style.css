@@ -13,6 +13,10 @@ p {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
+.fa-2xl {
+  font-size: 5em !important;
+}
+
 .bg-darkgreen {
   background-color: #235d6a !important;
 }
