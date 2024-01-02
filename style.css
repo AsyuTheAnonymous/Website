@@ -9,7 +9,8 @@ body {
 }
 
 h1,
-p {
+p,
+.list-group-item {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
@@ -21,9 +22,24 @@ p {
   background-color: #235d6a !important;
 }
 
+.bg-cyan {
+  background-color: #82f5f4 !important;
+}
+
 .btn-cyan {
   background-color: #82f5f4 !important;
   color: #235d6a !important;
+}
+
+.btn-darkgreen {
+  background-color: #235d6a !important;
+  color: #82f5f4 !important;
+}
+
+.btn-darkgreen:hover {
+  background-color: #82f5f4 !important;
+  color: #235d6a !important;
+  border: 1px solid #235d6a !important;
 }
 
 .btn-cyan:hover {
@@ -33,7 +49,11 @@ p {
 }
 
 .br-20 {
-  border-radius: 20px;
+  border-radius: 20px !important;
+}
+
+.br-40 {
+  border-radius: 40px !important;
 }
 
 .navbar {
@@ -55,4 +75,8 @@ p {
 
 .banner > .container-fluid {
   padding: 0px;
+}
+
+.card-title {
+  color: #235d6a !important;
 }
