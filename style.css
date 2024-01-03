@@ -56,6 +56,20 @@ p,
   border-radius: 40px !important;
 }
 
+.br-circle {
+  border-radius: 240px;
+}
+
+.bt-40 {
+  border-top-right-radius: 40px !important;
+  border-top-left-radius: 40px !important;
+}
+
+.bb-40 {
+  border-bottom-right-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+}
+
 .navbar {
   border-radius: 0 0 20px 20px;
 }
@@ -83,6 +97,14 @@ p,
 
 .form-control:focus {
   box-shadow: 0 0 0 0.25rem rgba(35, 93, 106, 0.25) !important;
+}
+
+.hr-cyan {
+  border-top: 1px solid #82f5f4;
+}
+
+.team-card-text {
+  color: #235d6a !important;
 }
 
 @media screen and (max-width: 768px) {
