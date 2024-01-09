@@ -4,11 +4,8 @@
   font-family: sans-serif;
 }
 
-body {
-  background-color: #82f5f4 !important;
-}
-
 h1,
+h5,
 p,
 .list-group-item {
   color: rgba(255, 255, 255, 0.75) !important;
@@ -18,34 +15,44 @@ p,
   font-size: 5em !important;
 }
 
-.bg-darkgreen {
-  background-color: #235d6a !important;
+.bg-black {
+  background-color: #000000 !important;
 }
 
-.bg-cyan {
-  background-color: #82f5f4 !important;
+.background-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(172, 88, 251, 1) 0%,
+    rgba(172, 88, 251, 1) 32%,
+    rgba(34, 188, 232, 1) 66%,
+    rgba(38, 215, 203, 1) 100%
+  ) !important;
 }
 
-.btn-cyan {
-  background-color: #82f5f4 !important;
-  color: #235d6a !important;
+.btn-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(172, 88, 251, 1) 0%,
+    rgba(172, 88, 251, 1) 32%,
+    rgba(34, 188, 232, 1) 66%,
+    rgba(38, 215, 203, 1) 100%
+  ) !important;
+  color: #000000 !important;
 }
 
-.btn-darkgreen {
-  background-color: #235d6a !important;
-  color: #82f5f4 !important;
+.btn-black {
+  background-color: #000 !important;
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
-.btn-darkgreen:hover {
-  background-color: #82f5f4 !important;
-  color: #235d6a !important;
-  border: 1px solid #235d6a !important;
+.btn-black:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: #000 !important;
 }
 
-.btn-cyan:hover {
-  background-color: #235d6a !important;
-  color: #82f5f4 !important;
-  border: 1px solid #82f5f4 !important;
+.btn-gradient:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+  border: 1px solid #000000 !important;
 }
 
 .br-20 {
@@ -79,7 +86,7 @@ p,
   display: block;
   width: 0%;
   height: 3px;
-  background: #009688;
+  background: #9e62fd;
   transition: 0.3s;
 }
 
@@ -91,12 +98,8 @@ p,
   padding: 0px;
 }
 
-.card-title {
-  color: #235d6a !important;
-}
-
 .form-control:focus {
-  box-shadow: 0 0 0 0.25rem rgba(35, 93, 106, 0.25) !important;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25) !important;
 }
 
 .hr-cyan {
@@ -104,11 +107,21 @@ p,
 }
 
 .team-card-text {
-  color: #235d6a !important;
+  color: #000 !important;
+}
+
+.svg-inline--fa {
+  color: rgba(255, 255, 255, 1);
 }
 
 @media screen and (max-width: 768px) {
   .pb-sm {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pb-md {
     padding-bottom: 20px;
   }
 }
